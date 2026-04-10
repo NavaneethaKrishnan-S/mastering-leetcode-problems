@@ -10,7 +10,7 @@ public class MaxConsecutiveOnes {
     public static int findMaxConsecutiveOnes(int[] nums) {
         int max = 0;
         var count = 0;
-        
+
         for (int num : nums) {
             if (num == 1) {
                 count++;
